@@ -5,8 +5,6 @@ const fs = require('fs');
 
 const downloader = new ImageDownloader(__dirname + '/images');
 
-//var userTerm = 'nick mullen retarded';
-
 var handleSearch = function (searchTerm){
     if (imageIndex[searchTerm]) {
         return console.log('already have it');

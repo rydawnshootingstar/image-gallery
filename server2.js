@@ -7,7 +7,7 @@ var {handleSearch} = require('./downloader');
 var app = express();
 
 var options = {
-    title: 'My boys'
+    title: 'Very Important Images'
 };
 
 
